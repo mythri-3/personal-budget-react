@@ -1,0 +1,43 @@
+// Define variables for colors and sizes
+$primary-bg-color: #282c34;
+$link-color: #61dafb;
+$base-font-size: 10px;
+
+.App {
+  text-align: center;
+
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+
+    // Use media query with SCSS nesting
+    @media (prefers-reduced-motion: no-preference) {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+
+  .App-header {
+    background-color: $primary-bg-color;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(#{$base-font-size} + 2vmin);
+    color: white;
+  }
+
+  .App-link {
+    color: $link-color;
+  }
+}
+
+// Define keyframes at the root level
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

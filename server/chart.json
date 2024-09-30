@@ -1,0 +1,40 @@
+
+{
+    "myBudget": [
+        {
+            "title": "Obj1",
+            "budget": 151,
+            "color": "Purple"
+        },
+        {
+            "title": "Obj2",
+            "budget": 150,
+            "color": "Gold"
+        },
+        {
+            "title": "Obj3",
+            "budget": 126,
+            "color": "Cyan"
+        },
+        {
+            "title": "Obj4",
+            "budget": 148,
+            "color": "Coral"
+        },
+        {
+            "title": "Obj5",
+            "budget": 130,
+            "color": "Olive"
+        },
+        {
+            "title": "Obj6",
+            "budget": 135,
+            "color": "Lime"
+        },
+        {
+            "title": "Obj7",
+            "budget": 141,
+            "color": "Magenta"
+        }
+    ]
+}

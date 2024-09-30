@@ -1,0 +1,40 @@
+
+{
+    "myBudget": [
+        {
+            "title": "Eat out",
+            "budget": 20,
+            "color": "Red"
+        },
+        {
+            "title": "Rent",
+            "budget": 350,
+            "color": "Blue"
+        },
+        {
+            "title": "Groceries",
+            "budget": 40,
+            "color": "Green"
+        },
+        {
+            "title": "Fitness",
+            "budget": 50,
+            "color": "Orange"
+        },
+        {
+            "title": "Movies",
+            "budget": 100,
+            "color": "Brown"
+        },
+        {
+            "title": "Shopping",
+            "budget": 80,
+            "color": "Yellow"
+        },
+        {
+            "title": "Utilities",
+            "budget": 120,
+            "color": "Pink"
+        }
+    ]
+}

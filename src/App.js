@@ -1,18 +1,19 @@
-import React from'react';
-import './App.css';
 
+import React from 'react';
+import './App.scss';
 import {
   BrowserRouter as Router,
+  Route,
   Routes,
-  Route
 } from "react-router-dom";
 
 import Menu from './Menu/Menu';
 import Hero from './Hero/Hero';
-import HomePage from './HomePage/HomePage';
+import Homepage from './HomePage/HomePage';
 import Footer from './Footer/Footer';
 import AboutPage from './AboutPage/AboutPage';
 import LoginPage from './LoginPage/LoginPage';
+
 
 function App() {
   return (
@@ -21,11 +22,11 @@ function App() {
       <Hero/>
       <div className="mainContainer">
         <Routes>
-         <Route path="/" element={<HomePage />} />
+        <Route path="/" element={<Homepage />} />
          <Route path="/about" element={<AboutPage />} />
-         <Route path="/Login" element={<LoginPage />} />
+         <Route path="/Login" element={<LoginPage />} />        
         </Routes>
-      </div>
+         </div>
       <Footer/>
     </Router>
   );
